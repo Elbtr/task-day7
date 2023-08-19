@@ -5,7 +5,7 @@
 
 .container-testimonials .big-title {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .card-content-testimonials {
@@ -95,6 +95,10 @@
     padding: 3px 2px;
     width: 100%;
   }
+  .container-testimonials .big-title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -115,5 +119,9 @@
     border-radius: 10px;
     padding: 3px 2px;
     width: 100%;
+  }
+  .container-testimonials .big-title {
+    text-align: center;
+    margin-bottom: 50px;
   }
 }

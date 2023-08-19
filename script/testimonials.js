@@ -48,24 +48,30 @@ class AuthorTestimonial extends Testimonials {
 }
 
 const testimonial1 = new AuthorTestimonial(
-  "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-  "Mantap sekali jasanya!",
-  "Abel Dustin"
+  "https://images.pexels.com/photos/15126611/pexels-photo-15126611/free-photo-of-proyek-oleh-profil-salon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "i am singel woman are you like me?",
+  "Chandri Anggara"
 );
 
 const testimonial2 = new AuthorTestimonial(
-  "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-  "Keren lah pokoknya",
-  "Cintara Surya"
+  "https://images.pexels.com/photos/15157314/pexels-photo-15157314/free-photo-of-kacamata-hitam-wanita-duduk-rokok.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "udud dulu gak tuh! wkwkwk",
+  "Gelora_B"
 );
 
 const testimonial3 = new AuthorTestimonial(
-  "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-  "Wuhu keren cuy!",
-  "Maul"
+  "https://images.pexels.com/photos/13926527/pexels-photo-13926527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "don't judge someone by their cover",
+  "Hadi Saerani"
 );
 
-let testimonialsData = [testimonial1, testimonial2, testimonial3];
+const testimonial4 = new AuthorTestimonial(
+  "https://images.pexels.com/photos/15093015/pexels-photo-15093015/free-photo-of-romantis-antik.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "to keep calm is my choice",
+  "El BTR"
+);
+
+let testimonialsData = [testimonial1, testimonial2, testimonial3, testimonial4];
 
 console.log(testimonialsData);
 
