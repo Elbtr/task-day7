@@ -1,0 +1,119 @@
+.container-testimonials {
+  width: 1000px;
+  margin: 60px auto;
+}
+
+.container-testimonials .big-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card-content-testimonials {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  justify-items: center;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.card-testimonial {
+  box-shadow: 0 0 7px 1px;
+  border-radius: 10px;
+  padding: 3px 2px;
+}
+
+.image-testimonial {
+  height: 300px;
+}
+.image-testimonial img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.card-testimonial:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.content-testimonial {
+  margin: 20px 0;
+  padding-left: 4px;
+}
+.content-testimonial .author {
+  text-align: end;
+  margin-top: 30px;
+  padding-right: 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container-testimonials {
+    width: 600px;
+    margin: 60px auto;
+  }
+
+  .card-content-testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    justify-items: center;
+    column-gap: 20px;
+    row-gap: 40px;
+  }
+  .image-testimonial {
+    height: 240px;
+  }
+  .card-testimonial {
+    box-shadow: 0 0 7px 1px;
+    border-radius: 10px;
+    padding: 3px 2px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-testimonials {
+    width: 400px;
+    margin: 60px auto;
+  }
+
+  .card-content-testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-testimonial {
+    height: 220px;
+  }
+  .card-testimonial {
+    box-shadow: 0 0 7px 1px;
+    border-radius: 10px;
+    padding: 3px 2px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-testimonials {
+    width: 320px;
+    margin: 60px auto;
+  }
+
+  .card-content-testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-testimonial {
+    height: 200px;
+  }
+  .card-testimonial {
+    box-shadow: 0 0 7px 1px;
+    border-radius: 10px;
+    padding: 3px 2px;
+    width: 100%;
+  }
+}
